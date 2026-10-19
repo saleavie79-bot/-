@@ -1,9 +1,0 @@
-node_modules/
-.env
-.env.*
-!.env.example
-*.xlsx
-*.xls
-*.csv
-.DS_Store
-npm-debug.log*
