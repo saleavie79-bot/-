@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+:root{--navy:#26364b;--blue:#0876c9;--gold:#d6a500;--paper:#fff;--muted:#eef0f3}
+*{box-sizing:border-box}
+body{margin:0;background:#f0f2f5;color:#182334;font-family:"Cairo",Tahoma,Arial,sans-serif;padding:24px 14px}
+.page{max-width:760px;margin:auto}
+.school-head{position:relative;background:var(--navy);color:#fff;border:5px solid #e4b62a;border-radius:15px 15px 0 0;text-align:center;padding:20px 18px 22px;overflow:hidden}
+.school-head:after{content:"";position:absolute;bottom:0;right:0;left:0;height:7px;background:#e4b62a}
+.cap{font-size:35px}
+.school-mark{font-size:14px;color:#f6d86b;font-weight:800}
+h1{font-size:clamp(20px,4vw,30px);margin:8px 0}
+.school-head p{margin:0;color:#e5ebf2;font-size:14px}
+.search,.student-card{background:#fff;border:2px solid #d6a500;border-top:0;padding:22px;box-shadow:0 8px 22px #1e293b12}
+.search label{display:block;font-weight:800;margin-bottom:8px;color:#0876c9}
+input{width:100%;padding:13px 14px;border:1px solid #b8c3d1;border-radius:8px;font:inherit;font-size:17px}
+input:focus{outline:3px solid #0876c92b;border-color:#0876c9}
+button{border:0;border-radius:8px;background:#0876c9;color:white;font:inherit;font-weight:800;padding:12px 20px;cursor:pointer;margin-top:13px}
+button:hover{filter:brightness(.94)}
+.search button{width:100%}
+small{display:block;color:#596779;margin-top:10px;line-height:1.8}
+.message{margin:12px 0;color:#a12727;font-weight:700}
+.student-card{border-top:5px solid var(--gold);border-radius:0 0 12px 12px}
+.card-title{background:#456fbd;color:#fff;border:2px solid #253c64;border-radius:7px;text-align:center;padding:11px;font-size:18px;font-weight:800;margin-bottom:12px}
+.field{display:grid;grid-template-columns:36% 64%;border-bottom:1px solid #d6a500;min-height:48px}
+.field span{background:#eef0f3;padding:11px;font-weight:800;color:#0876c9}
+.field strong{padding:11px;overflow-wrap:anywhere;text-align:center;font-size:17px}
+.secondary{background:#34465d}
+.warning{font-size:12px;color:#6c4a00;margin-bottom:0}
+footer{text-align:center;color:#667085;font-size:12px;padding:18px}
+@media(max-width:480px){body{padding:10px 7px}.search,.student-card{padding:14px}.field{grid-template-columns:40% 60%}.field span,.field strong{padding:9px 6px;font-size:14px}}
